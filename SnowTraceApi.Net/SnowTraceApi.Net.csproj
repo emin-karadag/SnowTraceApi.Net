@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>SnowTraceApi.Net</Title>
+    <Authors>Mehmet Emin KARADAĞ</Authors>
+    <Description>Avalanche C-Chain üzerindeki blokzincir verilerine API üzerinden GET/POST istekleri aracılığıyla doğrudan erişim sağlamak için geliştirilen bir .NET kütüphanesidir.</Description>
+    <Copyright>Tüm hakları saklıdır.</Copyright>
+    <PackageProjectUrl>https://github.com/emin-karadag/SnowTraceApi.Net</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/emin-karadag/SnowTraceApi.Net</RepositoryUrl>
+    <PackageTags>blockchain,avalanche,avax,snowtrace,blokzincir,explorer,avalanche explorer, avax explorer, snowtrace explorer</PackageTags>
+    <PackageReleaseNotes>SnowTrace üzerindeki Accounts uç birimleri entegre edildi.
+
+-&gt; GetAvaxBalanceForSingleAddressAsync()
+-&gt; GetAvaxBalanceForMultipleAddressesAsync()
+-&gt; GetNormalTransactionsByAddressAsync()
+-&gt; GetInternalTransactionsByAddressAsync()
+-&gt; GetInternalTransactionsByHashAsync()
+-&gt; GetInternalTransactionsByBlockRangeAsync()
+-&gt; GetTokenTransferEventsByAddressAsync()
+-&gt; GetNftTransferEventsByAddressAsync()
+-&gt; GetBlockMinedByAddressAsync()</PackageReleaseNotes>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
