@@ -23,10 +23,18 @@
 -&gt; GetNftTransferEventsByAddressAsync()
 -&gt; GetBlockMinedByAddressAsync()</PackageReleaseNotes>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>SnowTrace-Logo.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="SnowTrace-Logo.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
